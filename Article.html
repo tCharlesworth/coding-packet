@@ -30,7 +30,7 @@
     <section class="article-wrapper">
       <p>Spicy jalapeno bacon ipsum dolor amet beef filet mignon pork tongue turkey ground round. Sausage porchetta cow, bresaola kielbasa pastrami biltong. Flank sausage ham, bresaola boudin shoulder turducken andouille. Pork belly drumstick andouille corned beef, t-bone pastrami shankle. Brisket porchetta cupim, filet mignon bresaola short loin jowl pig kielbasa meatball leberkas ham pork loin t-bone.</p>
       <div class="side-video">
-        <video width="300" controls>
+        <video width="300" controls poster="./images/photo04.jpg">
           <source src="http://ldsudso-a.akamaihd.net/66852713001/66852713001_3101752827001_2013-01-002-earthly-father-heavenly-father-8000k-eng.mp4?playerId=710849472001&lineupId=&affiliateId=&pubId=710874264001&videoId=2125099902001" />
         </video>
         <p class="media-title">Video title</p>
@@ -54,8 +54,14 @@
   <!-- Custom Code -->
   <script type="text/javascript">
     $(document).ready(function() {
+      // Thumbnail swapping code
       $('.thumbnail').click(function(e) {
         $('#main-image').attr('src', e.target.src);
+      });
+      // Video play on click code
+      $('.side-video').click(function() {
+        var element = $('video').get(0);
+        element.paused ? element.play() : element.pause();
       });
     });
   </script>
