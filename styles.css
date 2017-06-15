@@ -20,6 +20,7 @@ h2 {
 h3 {
   font-size: 1.3em;
   color: grey;
+  margin-top: 30px;
 }
 
 .wrapper {
@@ -29,6 +30,10 @@ h3 {
 
 section {
   margin-bottom: 10px
+}
+
+.article-wrapper > p {
+  width: 75%;
 }
 
 .image-full {
@@ -62,4 +67,23 @@ img {
 
 .thumbnail:hover {
   cursor: pointer;
+}
+
+.side-video {
+  width: 200px;
+  overflow: hidden;
+  border-bottom: thin solid #D8D8D8;
+  padding-bottom: 5px;
+  float: right;
+  margin-left: 15px;
+}
+.side-video > img {
+  width: 100%;
+  max-height: 150px;
+}
+.side-video > .media-title {
+  font-size: .9em;
+}
+.side-video > .media-caption {
+  font-size: .7em;
 }
