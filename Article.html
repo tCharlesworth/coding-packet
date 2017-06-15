@@ -18,7 +18,7 @@
     </section>
 
     <section>
-      <img class="image-full" src="./images/photo01.jpg" />
+      <img id="main-image" class="image-full" src="./images/photo01.jpg" />
       <img class="thumbnail" src="./images/photo02.jpg"/>
       <img class="thumbnail" src="./images/photo03.jpg"/>
       <div>
@@ -46,5 +46,16 @@
 
     </div>
   </div>
+
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Custom Code -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.thumbnail').click(function(e) {
+        $('#main-image').attr('src', e.target.src);
+      });
+    });
+  </script>
 </body>
 </html>
