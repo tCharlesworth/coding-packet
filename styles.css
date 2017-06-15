@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 0.8em;
+  margin: 0;
+  color: grey;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: grey;
+}
+
+.wrapper {
+  width: 50%;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 10px
+}
+
+.image-full {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+}
+
+.media-title {
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.media-caption {
+  color: gray;
+  margin: 0;
+  font-size: .8em;
+}
+
+img {
+  border: thin solid #000;
+}
+
+.thumbnail {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-left: 4px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+}
