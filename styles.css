@@ -9,6 +9,7 @@ body {
 h1 {
   font-size: 1.8em;
   margin: 0;
+  color: #000;
 }
 
 h2 {
@@ -19,7 +20,6 @@ h2 {
 
 h3 {
   font-size: 1.3em;
-  color: grey;
   margin-top: 30px;
 }
 
@@ -29,9 +29,14 @@ h3 {
 }
 
 section {
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  color: grey;
 }
 
+.article-wrapper {
+  font-size: .8em;
+  margin-top: 70px;
+}
 .article-wrapper > p {
   width: 75%;
 }
@@ -44,6 +49,7 @@ section {
 
 .media-title {
   font-weight: bold;
+  font-size: .8em;
   color: black;
   margin: 0;
 }
@@ -51,7 +57,7 @@ section {
 .media-caption {
   color: gray;
   margin: 0;
-  font-size: .8em;
+  font-size: .7em;
 }
 
 img {
@@ -70,20 +76,16 @@ img {
 }
 
 .side-video {
-  width: 200px;
+  width: 300px;
   overflow: hidden;
   border-bottom: thin solid #D8D8D8;
   padding-bottom: 5px;
   float: right;
-  margin-left: 15px;
+  margin: 10px;
+  position: relative;
+  right: -60px;
 }
 .side-video > img {
   width: 100%;
   max-height: 150px;
-}
-.side-video > .media-title {
-  font-size: .9em;
-}
-.side-video > .media-caption {
-  font-size: .7em;
 }
