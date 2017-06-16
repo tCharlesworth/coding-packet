@@ -4,4 +4,4 @@ The code for the projects can be found in 'Article.html' and 'Tile.html'. They b
 the page as simple and fast as possible I used Jquery to write simple scripts for handling click events and I used css transitions for
 the animations.
 
-To view a live preview of both pages together, click this link hosted by Github Pages: [https://tcharlesworth.github.com/coding-pages](https://tcharlesworth.github.io/coding-pages)
+To view a live preview of both pages together, click this link hosted by Github Pages: [https://tcharlesworth.github.io/coding-packet/](https://tcharlesworth.github.io/coding-packet/)
