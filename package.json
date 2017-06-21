@@ -4,7 +4,8 @@
   "description": "The code for the projects can be found in 'Article.html' and 'Tile.html'. They both refer to the same stylesheet 'styles.css'. In order to keep\r the page as simple and fast as possible I used Jquery to write simple scripts for handling click events and I used css transitions for\r the animations.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base app/ --config webpack.config.js"
+    "start": "webpack-dev-server --content-base app/ --config webpack.config.js",
+    "build": "webpack --config webpack.build_config.js"
   },
   "repository": {
     "type": "git",
