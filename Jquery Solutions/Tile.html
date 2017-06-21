@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <title>Tile Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <br/><br/><br/><br/>
+    <section class="tile-container">
+      <video id="width-trigger" poster="./images/photo04_poster.jpg" class="tile-video width-grow-transition">
+          <source src="http://ldsudso-a.akamaihd.net/66852713001/66852713001_3101752827001_2013-01-002-earthly-father-heavenly-father-8000k-eng.mp4?playerId=710849472001&lineupId=&affiliateId=&pubId=710874264001&videoId=2125099902001" />
+      </video>
+      <div class="tile-info width-grow-transition">
+        <p class="tile-type">News Release</p>
+        <h2 class="tile-title">University of Utah Names Historic Building After President Monson</h2>
+        <p class="tile-description">A historic mansion in downtown Salt Lake City has been renamed the Thomas S. Monson Center after the
+          current president of The Church of Jesus Christ of Latter-day Saints.</p>
+      </div>
+      <div style="clear: both"></div>
+    </section>
+  </div>
+
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Custom Code -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var trigger = $('#width-trigger');
+      trigger.click(function() {
+        trigger.attr('controls', '');
+        var elements = $('.width-grow-transition');
+        elements.last().addClass('full-width');
+        elements.first().addClass('full-width-clear');
+        trigger.get(0).play();
+      })
+    });
+  </script>
+</body>
+</html>
