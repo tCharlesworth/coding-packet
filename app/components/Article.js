@@ -26,7 +26,7 @@ class ArticleComponent extends Component {
             video={{ 
               poster: './images/photo04_poster.jpg', 
               title: 'Earthly Father, Heavenly Father', 
-              caption: 'Video Caption', 
+              caption: 'A video for fathers.', 
               src: 'http://ldsudso-a.akamaihd.net/66852713001/66852713001_3101752827001_2013-01-002-earthly-father-heavenly-father-8000k-eng.mp4?playerId=710849472001&lineupId=&affiliateId=&pubId=710874264001&videoId=2125099902001'}} />
 
           <p style={styles.articleTextStyles}>Alcatra brisket pork chop meatloaf swine beef tri-tip kielbasa landjaeger burgdoggen chicken biltong sirloin. Bresaola burgdoggen tri-tip swine ham. Filet mignon landjaeger leberkas capicola. Kevin andouille short ribs, salami tri-tip tail ball tip kielbasa flank cow ribeye. Landjaeger cow cupim, biltong short ribs beef ribs pork loin prosciutto short loin capicola hamburger porchetta pig. Shoulder pork belly filet mignon kielbasa ham hock meatball pancetta rump tenderloin pork loin spare ribs jowl. Jowl corned beef burgdoggen pig chicken fatback cow doner pork short loin turducken.</p>

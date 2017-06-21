@@ -10,6 +10,7 @@ const App = () => {
       <ArticleComponent />
       <br/><br/><br/><br/><br/>
       <TileComponent />
+      <br/><br/><br/><br/><br/>
     </div>
   );
 };
