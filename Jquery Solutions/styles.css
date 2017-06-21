@@ -1,0 +1,141 @@
+/*    General Styles     */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0;
+  color: #000;
+}
+
+h2 {
+  font-size: 0.8em;
+  margin: 0;
+  color: grey;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-top: 30px;
+}
+
+.wrapper {
+  width: 50%;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+img {
+  border: thin solid #000;
+}
+
+/*    Article Styles     */
+
+.article-wrapper {
+  font-size: .8em;
+  margin-top: 70px;
+}
+.article-wrapper > p {
+  width: 75%;
+}
+
+.image-full {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+}
+
+.media-title {
+  font-weight: bold;
+  font-size: .8em;
+  color: black;
+  margin: 0;
+}
+
+.media-caption {
+  color: gray;
+  margin: 0;
+  font-size: .7em;
+}
+
+
+.thumbnail {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-left: 4px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+}
+
+.side-video {
+  width: 300px;
+  overflow: hidden;
+  border-bottom: thin solid #D8D8D8;
+  padding-bottom: 5px;
+  float: right;
+  margin: 10px;
+  position: relative;
+  right: -60px;
+}
+.side-video > img {
+  width: 100%;
+  max-height: 150px;
+}
+
+
+
+/*    Tile Styles     */
+.full-width-clear {
+  clear: left;
+  width: 100%;
+}
+.full-width {
+  width: 100% !important;
+}
+
+.tile-A {
+  width: 30%;
+  min-width: 200px;
+  transition: width 1s ease;
+}
+video {
+  float: left;
+  width: 30%;
+  min-width: 200px;
+  transition: width 1s ease;
+}
+.tile-info {
+  float: right;
+  width: calc(100% - 210px);
+  transition: width 1s ease;
+}
+
+.tile-container {
+  position: relative;
+}
+
+.tile-info > .tile-type {
+  color: #A3BDC0;
+  font-size: .8em;
+  margin: 0;
+}
+
+.tile-info > .tile-title {
+  font-size: 1.5em;
+}
+
+.tile-info > .tile-description {
+  font-size: .9em;
+}
